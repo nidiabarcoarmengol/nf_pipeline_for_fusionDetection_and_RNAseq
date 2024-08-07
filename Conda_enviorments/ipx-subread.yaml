@@ -1,0 +1,15 @@
+name: ipx-subread
+channels:
+  - conda-forge
+  - bioconda
+  - bih-cubi
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - libgcc-ng=13.2.0=h77fa898_6
+  - libgomp=13.2.0=h77fa898_6
+  - libzlib=1.2.13=hd590300_5
+  - subread=2.0.6=he4a0461_0
+  - zlib=1.2.13=hd590300_5
+prefix: /home/nbarco/.conda/envs/ipx-subread

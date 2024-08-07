@@ -1,0 +1,10 @@
+name: qualimap_conda
+channels:
+  - conda-forge
+  - bioconda
+  - bih-cubi
+  - defaults
+dependencies:
+  - openjdk=8.0.382=hd590300_0
+  - qualimap=2.2.2a=1
+prefix: /home/nbarco/.conda/envs/qualimap_conda

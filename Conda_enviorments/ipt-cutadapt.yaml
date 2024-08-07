@@ -1,0 +1,47 @@
+name: ipt-cutadapt
+channels:
+  - conda-forge
+  - bioconda
+  - bih-cubi
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2022.10.11=h06a4308_0
+  - isa-l=2.30.0=ha770c72_4
+  - ld_impl_linux-64=2.39=hc81fddc_0
+  - libffi=3.4.2=h295c915_4
+  - libgcc-ng=12.2.0=h65d4601_19
+  - libgomp=12.2.0=h65d4601_19
+  - libnsl=2.0.0=h5eee18b_0
+  - libsqlite=3.39.4=h753d276_0
+  - libstdcxx-ng=12.2.0=h46fd767_19
+  - libuuid=2.32.1=h7f98852_1000
+  - libzlib=1.2.13=h166bdaf_4
+  - lz4-c=1.9.3=h295c915_1
+  - ncurses=6.3=h5eee18b_3
+  - openssl=3.0.7=h166bdaf_0
+  - pbzip2=1.1.13=0
+  - pigz=2.6=h27cfd23_0
+  - pip=22.3.1=pyhd8ed1ab_0
+  - pycparser=2.21=pyhd3eb1b0_0
+  - python=3.10.6=ha86cf86_0_cpython
+  - python-isal=1.1.0=py310h5764c6d_1
+  - python_abi=3.10=2_cp310
+  - readline=8.2=h5eee18b_0
+  - setuptools=65.5.1=pyhd8ed1ab_0
+  - tk=8.6.12=h1ccaba5_0
+  - tzdata=2022f=h04d1e81_0
+  - wheel=0.38.4=pyhd8ed1ab_0
+  - xz=5.2.6=h5eee18b_0
+  - zlib=1.2.13=h166bdaf_4
+  - zstd=1.5.2=ha4553b6_0
+  - pip:
+    - cffi==1.15.1
+    - cutadapt==4.1
+    - dnaio==0.9.1
+    - isal==1.1.0
+    - xopen==1.7.0
+    - zstandard==0.19.0
+prefix: /home/bio/soft/miniconda/iper-condria/envs/ipt-cutadapt

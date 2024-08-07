@@ -1,0 +1,33 @@
+name: ipt-samtools-1.9
+channels:
+  - conda-forge
+  - bioconda
+  - bih-cubi
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - bzip2=1.0.8=hd590300_5
+  - c-ares=1.28.1=hd590300_0
+  - ca-certificates=2024.6.2=hbcca054_0
+  - curl=7.88.1=hdc1c0ab_1
+  - htslib=1.9=h244ad75_9
+  - keyutils=1.6.1=h166bdaf_0
+  - krb5=1.20.1=h81ceb04_0
+  - libcurl=7.88.1=hdc1c0ab_1
+  - libdeflate=1.20=hd590300_0
+  - libedit=3.1.20191231=h46ee950_2
+  - libev=4.33=hd590300_2
+  - libgcc-ng=13.2.0=h77fa898_8
+  - libgomp=13.2.0=h77fa898_8
+  - libnghttp2=1.58.0=h47da74e_1
+  - libssh2=1.11.0=h0841786_0
+  - libstdcxx-ng=13.2.0=hc0a3c3a_8
+  - libzlib=1.2.13=h4ab18f5_6
+  - ncurses=6.1=hf484d3e_1002
+  - openssl=3.3.1=h4ab18f5_0
+  - samtools=1.9=h10a08f8_12
+  - xz=5.2.6=h166bdaf_0
+  - zlib=1.2.13=h4ab18f5_6
+  - zstd=1.5.6=ha6fb4c9_0
+prefix: /home/nbarco/.conda/envs/ipt-samtools-1.9
